@@ -6,9 +6,24 @@
   - date: 2017-05-03
     url: https://www.shapeyourcityhalifax.ca/almon-street-bike-lane
     title: Halifax Forum Public Engagement Session
-  - date: 2017-09-01
+  - date: 2017-09-21
     title: Status Update
     url: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/almon-street-bike-lane
+  - date: 2017-10-19
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/171019atacMinutes.pdf
+  - date: 2017-11-16
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/ATAC171116.pdf
+  - date: 2018-02-15
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/ATACMinutes180215.pdf
+  - date: 2018-04-19
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180419atac-mins.pdf
+  - date: 2018-05-17
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180517atacmins.pdf
 - name: south-park
   title: South Park Street Bike Lane Improvements
   homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/south-park-street-bike-lane
@@ -26,6 +41,12 @@
   - date: 2018-03-06
     title: Approved by Regional Council
     url: https://www.halifax.ca/city-hall/regional-council/march-6-2018-halifax-regional-council
+  - date: 2018-04-19
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180419atac-mins.pdf
+  - date: 2018-05-17
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180517atacmins.pdf
 - name: bridge-connector
   title: Macdonald Bridge Bikeway Connector
   homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/macdonald-bridge-bikeway-connector
@@ -37,6 +58,9 @@
   - date: 2017-08-15
     title: Approved by Regional Council
     url: https://www.halifax.ca/city-hall/regional-council/august-15-2017-halifax-regional-council
+  - date: 2018-05-17
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180517atacmins.pdf
 - name: vernon-seymour
   title: Vernon/Seymour Local Street Bikeway
   homepage: https://www.shapeyourcityhalifax.ca/bikeways
@@ -48,6 +72,9 @@
   - date: 2018-04-17
     title: Approved by Halifax and West Community Council
     url: https://www.halifax.ca/city-hall/community-councils/april-17-2018-halifax-west-community-council
+  - date: 2018-04-19
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180419atac-mins.pdf
   - date: 2018-05-08
     title: Approved by Regional Council
     url: https://www.halifax.ca/city-hall/regional-council/may-8-2018-halifax-regional-council
@@ -62,6 +89,12 @@
   - date: 2018-04-17
     title: Approved by Halifax and West Community Council
     url: https://www.halifax.ca/city-hall/community-councils/april-17-2018-halifax-west-community-council
+  - date: 2018-04-19
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180419atac-mins.pdf
+  - date: 2018-05-08
+    title: Approved by Regional Council
+    url: https://www.halifax.ca/city-hall/regional-council/may-8-2018-halifax-regional-council
 - name: downtown-bikeways
   title: Downtown Bikeways
   homepage: https://www.shapeyourcityhalifax.ca/downtownbikeways
