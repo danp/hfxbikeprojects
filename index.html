@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h1>Integrated Mobility Plan Dashboard</h1>
+
+{% for project in site.data.projects %}
+<h2>{{ project.title }}</h2>
+
+<p>
+  <a href="{{ project.homepage }}">Homepage</a>
+</p>
+
+<p>
+  This project is <strong>{{ project.status }}</strong>.
+</p>
+
+<h3>Events</h3>
+<ul>
+{% assign sorted_events = project.events | sort: 'date' | reverse %}
+{% for event in sorted_events %}
+<li>{{ event.date | date: "%B %e, %Y" }} &mdash; <a href="{{ event.url }}">{{ event.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% endfor %}

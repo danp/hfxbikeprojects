@@ -1,0 +1,72 @@
+- name: almon
+  title: Almon Street Bike Lanes
+  homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/almon-street-bike-lane
+  status: pending-committee
+  events:
+  - date: 2017-05-03
+    url: https://www.shapeyourcityhalifax.ca/almon-street-bike-lane
+    title: Halifax Forum Public Engagement Session
+  - date: 2017-09-01
+    title: Status Update
+    url: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/almon-street-bike-lane
+- name: south-park
+  title: South Park Street Bike Lane Improvements
+  homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/south-park-street-bike-lane
+  status: pending-construction
+  events:
+  - date: 2016-04-25
+    title: Halifax Central Library Public Engagement Session
+    url: https://cyclehalifax.ca/2016/04/extend-south-park-street-bicycle-lanes/
+  - date: 2017-01-31
+    title: Halifax Central Library Public Engagement Session
+    url: https://www.shapeyourcityhalifax.ca/south-park-st-bike
+  - date: 2018-02-22
+    title: Approved by Transportation Standing Committee
+    url: https://www.halifax.ca/city-hall/standing-committees/february-22-2018-transportation-standing-committee
+  - date: 2018-03-06
+    title: Approved by Regional Council
+    url: https://www.halifax.ca/city-hall/regional-council/march-6-2018-halifax-regional-council
+- name: bridge-connector
+  title: Macdonald Bridge Bikeway Connector
+  homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/macdonald-bridge-bikeway-connector
+  status: pending-construction
+  events:
+  - date: 2017-07-27
+    title: Approved by Transportation Standing Committee
+    url: https://www.halifax.ca/city-hall/standing-committees/july-27-2017-trasportation-standing-committee
+  - date: 2017-08-15
+    title: Approved by Regional Council
+    url: https://www.halifax.ca/city-hall/regional-council/august-15-2017-halifax-regional-council
+- name: vernon-seymour
+  title: Vernon/Seymour Local Street Bikeway
+  homepage: https://www.shapeyourcityhalifax.ca/bikeways
+  status: pending-construction
+  events:
+  - date: 2017-11-08
+    title: St. Andrews Public Engagement Session
+    url: https://www.shapeyourcityhalifax.ca/bikeways
+  - date: 2018-04-17
+    title: Approved by Halifax and West Community Council
+    url: https://www.halifax.ca/city-hall/community-councils/april-17-2018-halifax-west-community-council
+  - date: 2018-05-08
+    title: Approved by Regional Council
+    url: https://www.halifax.ca/city-hall/regional-council/may-8-2018-halifax-regional-council
+- name: allan-oak
+  title: Allan/Oak Local Street Bikeway
+  homepage: https://www.shapeyourcityhalifax.ca/bikeways
+  status: pending-construction
+  events:
+  - date: 2017-11-08
+    title: St. Andrews Public Engagement Session
+    url: https://www.shapeyourcityhalifax.ca/bikeways
+  - date: 2018-04-17
+    title: Approved by Halifax and West Community Council
+    url: https://www.halifax.ca/city-hall/community-councils/april-17-2018-halifax-west-community-council
+- name: downtown-bikeways
+  title: Downtown Bikeways
+  homepage: https://www.shapeyourcityhalifax.ca/downtownbikeways
+  status: pending-committee
+  events:
+  - date: 2018-03-21
+    title: NSCAD Public Engagement Session
+    url: https://www.shapeyourcityhalifax.ca/downtownbikeways
