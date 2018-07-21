@@ -8,7 +8,9 @@ layout: default
 <h2>{{ project.title }}</h2>
 
 <p>
+{% if project.homepage %}
   <a href="{{ project.homepage }}">Homepage</a>.
+{% endif %}
   This project is <strong>{{ project.status | replace: "-", " " }}</strong>
 {%- if project.budget -%}
 , and is budgeted at <a href="{{ project.budget.url }}">${{ project.budget.amount }}</a>
