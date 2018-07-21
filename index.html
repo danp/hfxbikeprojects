@@ -11,8 +11,8 @@ layout: default
   <a href="{{ project.homepage }}">Homepage</a>.
   This project is <strong>{{ project.status }}</strong>
 {%- if project.budget -%}
-, and is budgeted at <a href="{{ project.budget.url }}">${{ project.budget.amount }}</a>.
-{% endif %}
+, and is budgeted at <a href="{{ project.budget.url }}">${{ project.budget.amount }}</a>
+{%- endif -%}.
 </p>
 
 {% if project.segments %}
