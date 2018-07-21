@@ -15,7 +15,7 @@ layout: default
 {% if project.homepage %}
   <a href="{{ project.homepage }}">Homepage</a>.
 {% endif %}
-  This project is <strong>{{ project.status | replace: "-", " " }}</strong>
+  This project is <a href="#project-phases"><strong>{{ project.status | replace: "-", " " }}</strong></a>
 {%- if project.budget -%}
 , and is budgeted at <a href="{{ project.budget.url }}">${{ project.budget.amount }}</a>
 {%- endif -%}.
@@ -84,5 +84,39 @@ layout: default
     }
   }
 </script>
+
+<a name="project-phases"></a>
+<h1>Project Phases</h1>
+
+<p>
+  Most projects will go through these phases:
+</p>
+
+<p>
+  <strong>Pending Committee</strong>
+  The project must come before a committee, such as the
+  <a href="https://www.halifax.ca/city-hall/standing-committees/transportation-standing-committee">Transportation Standing Committee</a>,
+  as a staff report before proceeding.
+  During this phase, there's usually design work and public engagements conducted.
+  Initial reports from staff typically take 6-12 months after
+  they are requested.
+</p>
+
+<p>
+  <strong>Pending Council</strong>
+  After being approved by a committee, the project must then be approved by
+  <a href="https://www.halifax.ca/city-hall/regional-council">Regional Council</a>.
+  Some projects may return to Council multiple times,
+  such as when budgeted amounts and more precise cost estimates differ too much.
+</p>
+
+<p>
+  <strong>Pending Construction</strong>
+  After final approval by Council, the project proceeds to construction.
+  This phase can also include completing more detailed design or putting the project
+  <a href="https://novascotia.ca/tenders/tenders/ns-tenders.aspx">out for bid</a>.
+  Construction typically begins 2-3 months after Council approval,
+  or after April 1, whichever is last.
+</p>
 
 <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyDlVD7XUpp3vC8hlnTMUktFgrqCKDBEdeI&callback=initMap"></script>
