@@ -2,6 +2,9 @@
   title: Almon Street Bike Lanes
   homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/almon-street-bike-lane
   status: pending-committee
+  budget:
+    amount: "300,000"
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/budget-finances/Proposed_2018_Book.pdf#page=496
   events:
   - date: 2017-05-03
     url: https://www.shapeyourcityhalifax.ca/almon-street-bike-lane
@@ -33,6 +36,9 @@
   title: South Park Street Bike Lane Improvements
   homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/south-park-street-bike-lane
   status: pending-construction
+  budget:
+    amount: "435,000"
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/budget-finances/Proposed_2018_Book.pdf#page=496
   events:
   - date: 2016-04-25
     title: Halifax Central Library Public Engagement Session
@@ -61,6 +67,9 @@
   title: Macdonald Bridge Bikeway Connector
   homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/macdonald-bridge-bikeway-connector
   status: pending-construction
+  budget:
+    amount: "6,600,000"
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/budget-finances/Proposed_2018_Book.pdf#page=500
   events:
   - date: 2017-07-27
     title: Approved by Transportation Standing Committee
@@ -88,6 +97,9 @@
   title: Vernon/Seymour Local Street Bikeway
   homepage: https://www.shapeyourcityhalifax.ca/bikeways
   status: pending-construction
+  budget:
+    amount: "537,000"
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/budget-finances/Proposed_2018_Book.pdf#page=496
   events:
   - date: 2017-11-08
     title: St. Andrews Public Engagement Session
@@ -110,6 +122,9 @@
   title: Allan/Oak Local Street Bikeway
   homepage: https://www.shapeyourcityhalifax.ca/bikeways
   status: pending-construction
+  budget:
+    amount: "520,000"
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/budget-finances/Proposed_2018_Book.pdf#page=496
   events:
   - date: 2017-11-08
     title: St. Andrews Public Engagement Session
@@ -151,3 +166,16 @@
     line: [[44.65044533977919, -63.57386438604891], [44.6502392598834, -63.57363908049166], [44.64962864848584, -63.57333867308199], [44.649315707653095, -63.57289879080355], [44.64897223406381, -63.57234089132845], [44.64862875844058, -63.57195465323031], [44.64785783908052, -63.571482584443686], [44.64717850560744, -63.57114999052584], [44.646544962726956, -63.570989057984946], [44.645718982926084, -63.57080666777193], [44.645230456252946, -63.570506260362265], [44.64499246888106, -63.57028977804123], [44.644702403032326, -63.57007520132004], [44.643481057232705, -63.569377826976165], [44.64241235856509, -63.56876628332077], [44.64095431648949, -63.5680152647966]]
   - name: terminal
     line: [[44.64065277965523, -63.56928126745163], [44.640965767224436, -63.56798307828842]]
+- name: ahern
+  title: Ahern Avenue
+  status: pending-committee
+  budget:
+    amount: "300,000"
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/budget-finances/Proposed_2018_Book.pdf#page=496
+  events:
+  - date: 2017-06-20
+    title: Added to Active Transportation Priorities Plan
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/regional-council/170620rc1423.pdf
+  segments:
+  - name: ahern
+    line: [[44.64571784987533, -63.5834544927003], [44.64610332505695, -63.58322918714305], [44.646385750791794, -63.583261373651226], [44.64685136859569, -63.583508136880596], [44.64868008344622, -63.584340482419975], [44.64921224775242, -63.58490911073113], [44.64931147325432, -63.58491983956719]]
