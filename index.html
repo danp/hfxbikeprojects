@@ -7,6 +7,12 @@ layout: default
 {% for project in site.data.projects %}
 <h2>{{ project.title }}</h2>
 
+{% assign sorted_events = project.events | sort: 'date' | reverse %}
+
+<p>
+  Last updated {{ sorted_events[0].date | date: "%B %e, %Y" }}.
+</p>
+
 <p>
 {% if project.homepage %}
   <a href="{{ project.homepage }}">Homepage</a>.
