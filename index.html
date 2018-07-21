@@ -9,7 +9,7 @@ layout: default
 
 <p>
   <a href="{{ project.homepage }}">Homepage</a>.
-  This project is <strong>{{ project.status }}</strong>
+  This project is <strong>{{ project.status | replace: "-", " " }}</strong>
 {%- if project.budget -%}
 , and is budgeted at <a href="{{ project.budget.url }}">${{ project.budget.amount }}</a>
 {%- endif -%}.
