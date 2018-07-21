@@ -24,6 +24,11 @@
   - date: 2018-05-17
     title: Active Transportation Advisory Committee Update
     url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180517atacmins.pdf
+  segments:
+  - name: gottingen-dublin
+    line: [[44.66005727637287, -63.59506093451802], [44.65730993963002, -63.59879456946675], [44.655493573305804, -63.60102616736714], [44.65483722526209, -63.60190593192402], [44.65469984915001, -63.60216342398945], [44.65422666227295, -63.60272132346455], [44.65299025253099, -63.60448085257832]]
+  - name: dublin-liverpool-connaught
+    line: [[44.65299025253099, -63.60449158141438], [44.654524312533205, -63.60664807746235], [44.6533322998477, -63.60829353240143], [44.65171264120475, -63.61045022571], [44.650266592424956, -63.61242925930037]]
 - name: south-park
   title: South Park Street Bike Lane Improvements
   homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/south-park-street-bike-lane
@@ -47,6 +52,11 @@
   - date: 2018-05-17
     title: Active Transportation Advisory Committee Update
     url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180517atacmins.pdf
+  segments:
+  - name: sackville-spring-garden
+    line: [[44.644488258223134,-63.580803866130736],[44.642305076449624,-63.57977389786902]]
+  - name: spring-garden-inglis
+    line: [[44.64229060333681, -63.57978469620156], [44.63438160473442, -63.57587939987587]]
 - name: bridge-connector
   title: Macdonald Bridge Bikeway Connector
   homepage: https://www.halifax.ca/transportation/cycling-walking/cycling-projects/macdonald-bridge-bikeway-connector
@@ -78,6 +88,11 @@
   - date: 2018-05-08
     title: Approved by Regional Council
     url: https://www.halifax.ca/city-hall/regional-council/may-8-2018-halifax-regional-council
+  segments:
+  - name: quinpool-coburg
+    line: [[44.64650086746735, -63.59338796554556], [44.64271472917193, -63.59145677505484], [44.64089329162137, -63.590860951189086], [44.63930543281746, -63.59002410197644]]
+  - name: coburg-university
+    line: [[44.63932454512116, -63.58993291961417], [44.63834737996453, -63.58937502013907], [44.63734729545998, -63.588860036008214]]
 - name: allan-oak
   title: Allan/Oak Local Street Bikeway
   homepage: https://www.shapeyourcityhalifax.ca/bikeways
@@ -95,6 +110,11 @@
   - date: 2018-05-08
     title: Approved by Regional Council
     url: https://www.halifax.ca/city-hall/regional-council/may-8-2018-halifax-regional-council
+  segments:
+  - name: windsor-oxford
+    line: [[44.64880140287294, -63.593671890763915], [44.64710689840691, -63.6004954304978], [44.6467405125542, -63.601396652726805]]
+  - name: oxford-connaught
+    line: [[44.64672666619183, -63.601384929523306], [44.64661217011093, -63.601631692752676], [44.646474774515546, -63.60230760942443], [44.6459709878815, -63.60422807107909], [44.64587175666508, -63.604625038013296], [44.64583359076741, -63.60482888589843], [44.64571145972614, -63.60520439516051], [44.64547483010191, -63.60606270204528]]
 - name: downtown-bikeways
   title: Downtown Bikeways
   homepage: https://www.shapeyourcityhalifax.ca/downtownbikeways

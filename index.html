@@ -15,12 +15,68 @@ layout: default
   This project is <strong>{{ project.status }}</strong>.
 </p>
 
+{% if project.segments %}
+<div id="{{ project.name }}-map" style="height: 400px"></div>
+<segments map-id="{{ project.name }}-map">
+  {% for segment in project.segments %}
+  <segment name="{{ segment.name }}">
+    {% for point in segment.line %}
+      <segment-point lat="{{ point[0] }}" lng="{{ point[1] }}"/>
+    {% endfor %}
+  </segment>
+  {% endfor %}
+</segments>
+{% endif %}
+
 <h3>Events</h3>
 <ul>
-{% assign sorted_events = project.events | sort: 'date' | reverse %}
-{% for event in sorted_events %}
-<li>{{ event.date | date: "%B %e, %Y" }} &mdash; <a href="{{ event.url }}">{{ event.title }}</a></li>
-{% endfor %}
+  {% assign sorted_events = project.events | sort: 'date' | reverse %}
+  {% for event in sorted_events %}
+  <li>{{ event.date | date: "%B %e, %Y" }} &mdash; <a href="{{ event.url }}">{{ event.title }}</a></li>
+  {% endfor %}
 </ul>
 
 {% endfor %}
+
+<script>
+  function initMap() {
+    var mapSegments = document.getElementsByTagName("segments")
+    for (i = 0; i < mapSegments.length; i++) {
+      var mapSegment = mapSegments[i]
+
+      var map = new google.maps.Map(document.getElementById(mapSegment.attributes["map-id"].value), {
+        zoom: 3,
+        center: {lat: 0, lng: 0},
+      });
+
+      var bounds = new google.maps.LatLngBounds();
+
+      var segments = mapSegment.getElementsByTagName("segment")
+      for (j = 0; j < segments.length; j++) {
+        var segment = segments[j]
+        var points = segment.getElementsByTagName("segment-point")
+        var coords = [];
+        for (k = 0; k < points.length; k++) {
+          var point = points[k]
+          var pt = { lat: parseFloat(point.attributes["lat"].value), lng: parseFloat(point.attributes["lng"].value) }
+          coords.push(pt)
+          bounds.extend(pt)
+        }
+
+        var line = new google.maps.Polyline({
+          path: coords,
+          geodesic: true,
+          strokeColor: '#FF0000',
+          strokeOpacity: 1.0,
+          strokeWeight: 2
+        })
+
+        line.setMap(map)
+      }
+
+      map.fitBounds(bounds)
+    }
+  }
+</script>
+
+<script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyDlVD7XUpp3vC8hlnTMUktFgrqCKDBEdeI&callback=initMap"></script>
