@@ -27,6 +27,9 @@
   - date: 2018-05-17
     title: Active Transportation Advisory Committee Update
     url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180517atacmins.pdf
+  - date: 2018-06-21
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180621atacmins.pdf
   segments:
   - name: gottingen-dublin
     line: [[44.66005727637287, -63.59506093451802], [44.65730993963002, -63.59879456946675], [44.655493573305804, -63.60102616736714], [44.65483722526209, -63.60190593192402], [44.65469984915001, -63.60216342398945], [44.65422666227295, -63.60272132346455], [44.65299025253099, -63.60448085257832]]
@@ -58,6 +61,9 @@
   - date: 2018-05-17
     title: Active Transportation Advisory Committee Update
     url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180517atacmins.pdf
+  - date: 2018-06-21
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180621atacmins.pdf
   segments:
   - name: sackville-spring-garden
     line: [[44.644488258223134,-63.580803866130736],[44.642305076449624,-63.57977389786902]]
@@ -80,6 +86,9 @@
   - date: 2018-05-17
     title: Active Transportation Advisory Committee Update
     url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180517atacmins.pdf
+  - date: 2018-06-21
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180621atacmins.pdf
   segments:
   - name: north
     line: [[44.655462406536834, -63.59373400242032], [44.65733982721198, -63.591116166421784], [44.65803628732128, -63.59056249654657]]
@@ -96,7 +105,7 @@
 - name: vernon-seymour
   title: Vernon/Seymour Local Street Bikeway
   homepage: https://www.shapeyourcityhalifax.ca/bikeways
-  status: pending-construction
+  status: under-construction
   budget:
     amount: "537,000"
     url: https://www.halifax.ca/sites/default/files/documents/city-hall/budget-finances/Proposed_2018_Book.pdf#page=496
@@ -141,6 +150,9 @@
   - date: 2018-05-08
     title: Approved by Regional Council
     url: https://www.halifax.ca/city-hall/regional-council/may-8-2018-halifax-regional-council
+  - date: 2018-08-23
+    title: Tendered for construction (Allan to Harvard portion)
+    url: https://novascotia.ca/tenders/tenders/tender-details.aspx?id=HRM-18-235
   segments:
   - name: windsor-oxford
     line: [[44.64880140287294, -63.593671890763915], [44.64710689840691, -63.6004954304978], [44.6467405125542, -63.601396652726805]]
@@ -160,6 +172,9 @@
   - date: 2018-05-17
     title: Active Transportation Advisory Committee Update
     url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180517atacmins.pdf
+  - date: 2018-06-21
+    title: Active Transportation Advisory Committee Update
+    url: https://www.halifax.ca/sites/default/files/documents/city-hall/boards-committees-commissions/180621atacmins.pdf
   segments:
   - name: hollis
     line: [[44.650268740261744, -63.57414858527932], [44.64758269453936, -63.57279577513265], [44.64656563412701, -63.57226743525604], [44.64505842779971, -63.57150282312682], [44.64334096345983, -63.57067139688843], [44.64207795597863, -63.57002523200737], [44.640641028797006, -63.569290672610975]]
@@ -171,7 +186,7 @@
     line: [[44.64065277965523, -63.56928126745163], [44.640965767224436, -63.56798307828842]]
 - name: ahern
   title: Ahern Avenue AT Trail
-  status: pending-construction
+  status: under-construction
   budget:
     amount: "300,000"
     url: https://www.halifax.ca/sites/default/files/documents/city-hall/budget-finances/Proposed_2018_Book.pdf#page=496
@@ -185,6 +200,9 @@
   - date: 2018-08-13
     title: Tendered for construction
     url: https://novascotia.ca/tenders/tenders/tender-details.aspx?id=HRM-18-218
+  - date: 2018-10-09
+    title: Construction progress noted
+    url: https://twitter.com/HeyCornpusher/status/1049700814850314241
   segments:
   - name: ahern
     line: [[44.64571784987533, -63.5834544927003], [44.64610332505695, -63.58322918714305], [44.646385750791794, -63.583261373651226], [44.64685136859569, -63.583508136880596], [44.64868008344622, -63.584340482419975], [44.64921224775242, -63.58490911073113], [44.64931147325432, -63.58491983956719]]
